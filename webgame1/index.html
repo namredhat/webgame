@@ -1,0 +1,31 @@
+&lt;!DOCTYPE html&gt;
+&lt;html lang="vi"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;title&gt;SPACEXGAME(Web)&lt;/title&gt;
+&lt;meta name="viewport" content="width=device-width,initial-scale=1.0"&gt;
+&lt;link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;display=swap" rel="stylesheet"&gt;
+&lt;style&gt;
+  html,body{margin:0;padding:0;overflow:hidden;background:#05050f}
+  canvas{display:block}
+
+  #signature {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(0,255,255,0.5);
+    pointer-events: none; /* không chặn click */
+    user-select: none;
+  }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;canvas id="c"&gt;&lt;/canvas&gt;
+&lt;div id="fireBtn"&gt;&lt;/div&gt;
+&lt;div id="signature"&gt;© 2026 TruongQuocNam--game web&lt;/div&gt; 
+&lt;script src="game.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
